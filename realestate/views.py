@@ -8,7 +8,7 @@ from django.http import JsonResponse
 
 @api_view(['POST'])
 def generate_listing_description(request):
-    openai.api_key = "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"
+    openai.api_key = "enter key here"
     model_id = 'gpt-3.5-turbo'
     print(request)
     if request.method == 'POST':
